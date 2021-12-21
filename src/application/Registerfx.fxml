@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Help">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="800.0" scaleShape="false" style="-fx-background-color: Aliceblue; -fx-background-image: url('file:C:/Users/gulsh/eclipse-workspace/Voting/src/application/background.png');">
+         <children>
+            <Text fill="#5e9358" layoutX="161.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Online voting application">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text fill="#5e9358" layoutX="161.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How to vote?">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="161.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Enter your CNIC to login" />
+            <Text layoutX="161.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Select party to vote you want to vote for" />
+            <Button layoutX="161.0" layoutY="351.0" mnemonicParsing="false" onAction="#go_to_vote" text="Click to vote" />
+            <Text layoutX="161.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. See details of candidate" />
+            <Text layoutX="161.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Confirm vote" />
+            <Button layoutX="161.0" layoutY="396.0" mnemonicParsing="false" onAction="#go_to_preg" text="Create party" />
+            <Text layoutX="516.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. To register for vote select register" />
+            <Text layoutX="516.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Enter your CNIC and name" />
+            <Text fill="#5e9358" layoutX="558.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How to register">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
